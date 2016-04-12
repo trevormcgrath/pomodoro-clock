@@ -1,0 +1,123 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color:#384651;
+  text-align:center;
+  color:#ed6272;
+}
+
+h1 {font-size: 36px;}
+h1, h2, h3, h4 {font-weight: 300;}
+
+.container {
+  max-width:700px;
+  width:80%;
+  margin: 0px auto;
+}
+
+.header {
+  border-bottom:1px solid;
+  padding:7px 0px 7px 0px;
+}
+
+.body-content {
+  width:100%;
+  display:inline-block;
+  padding-top:7px;
+  border-bottom:1px solid;
+}
+
+.settings-section {
+  width:30%;
+  margin: 0px auto;
+  float:left;
+}
+
+.settings-bubble {
+  border: 1px solid #ed6272;
+  border-radius: 10px;
+  height: 80px;
+  width:90px;
+  margin: 0px auto;
+  margin-bottom:7px;
+}
+
+.settings-position{
+  margin-top: 23%;
+  
+}
+
+#work-settings {
+  font-size:30px;
+}
+
+#rest-settings {
+  font-size:30px;
+}
+
+.setting-btn {
+  background:none;
+  border:none;
+  font-size:20px;
+  color:#ed6272;
+  cursor:pointer;
+}
+
+.clock-bubble {
+  float:right;
+  border: 1px solid #ed6272;
+  border-radius: 100%;
+  width:180px;
+  height: 180px;
+  margin-right:10%;
+  margin-top:12px;
+}
+
+.clock-bubble i {
+  margin-top:10%;
+  font-size:40px;
+}
+
+.time-position{
+  font-size:45px;
+  margin-top:7%;
+}
+
+.buttons {
+  width:100%;
+}
+
+.btn-styling {
+  color: #ed6272;
+  background:none;
+  border:1px solid #ed6272;
+  border-radius:10px;
+  padding: 5px 0px 5px 0px;
+  margin: 7px 0px 7px 0px;
+  font-size:23px;
+  cursor:pointer;
+}
+
+.btn-top{
+  width:97%;
+}
+
+.btn-bot{
+  width:48.5%;
+}
+
+
+
+@media(max-width: 600px){
+	.container{
+		width:100%;
+	}
+  
+  .clock-bubble {
+  margin-right:5%;
+  }
+}
